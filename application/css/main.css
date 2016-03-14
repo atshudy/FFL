@@ -1,0 +1,64 @@
+#header {
+    background-color:black;
+    text-align:center;
+    padding:5px;
+}
+
+#footer {
+    background-color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+
+body { 
+  background: url(../img/ff_bg_03.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4,h5{
+	color:#428bca;
+}
+label {
+	color: darksalmon;
+	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 250px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+    height:400px;
+    overflow:scroll;
+}
+#sortable1 li, #sortable2 li {
+ /* margin: 0 5px 5px 5px; */
+  margin: 0 0 0 5px; 
+  padding: 5px;
+  font-size: .9em;
+  width: 230px;
+  outline: 0;
+  border: 1px solid #aaa;
+}
+.ui-state-highlight { 
+	height: 1.8em; 
+	line-height: 1em; 
+}
+
+table {
+	background-color:#bbb;
+}
+p {
+	color: beige;
+	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
